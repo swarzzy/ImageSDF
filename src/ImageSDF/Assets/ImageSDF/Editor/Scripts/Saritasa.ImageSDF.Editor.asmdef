@@ -1,0 +1,32 @@
+{
+    "name": "Saritasa.ImageSDF.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Saritasa.ImageSDF",
+        "Unity.Mathematics",
+        "Unity.Burst",
+        "Unity.2D.Sprite.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.burst",
+            "expression": "",
+            "define": "IMAGE_SDF_BURST_INSTALLED"
+        },
+        {
+            "name": "com.unity.mathematics",
+            "expression": "",
+            "define": "IMAGE_SDF_MATHEMATICS_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,20 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_12_2777" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
+<path d="M2 2H22V22H2V2Z" fill="white"/>
+<path d="M21.4 21.4V2.6H2.6V21.4H21.4Z" stroke="white" stroke-width="1.2"/>
+</mask>
+<g mask="url(#mask0_12_2777)">
+<path d="M16.3832 11.4083C16.3832 14.1768 14.1308 16.4082 11.3523 16.4082" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M21.414 16.408C18.6356 16.408 16.3831 14.1766 16.3831 11.408" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10"/>
+<path d="M11.3523 16.4081C14.1308 16.4081 16.3832 18.6524 16.3832 21.4209" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10"/>
+<path d="M16.3831 21.4209C16.3831 18.6524 18.6356 16.4081 21.414 16.4081" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M6.30145 8.13404C6.30145 10.1787 4.63793 11.8267 2.58594 11.8267" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M10.017 11.8267C7.96493 11.8267 6.30145 10.1787 6.30145 8.13404" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10"/>
+<path d="M2.58594 11.8267C4.63793 11.8267 6.30145 13.4842 6.30145 15.5288" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10"/>
+<path d="M6.30145 15.5288C6.30145 13.4842 7.96493 11.8267 10.017 11.8267" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M13.8578 2.59274C13.8578 4.18181 12.5649 5.46997 10.9702 5.46997" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"/>
+<path d="M16.7454 5.46265C15.1506 5.46265 13.8578 4.1819 13.8578 2.59284" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10"/>
+<path d="M10.9702 5.47004C12.5649 5.47004 13.8578 6.75078 13.8578 8.33984" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10"/>
+<path d="M13.8578 8.33984C13.8578 6.75078 15.1506 5.46262 16.7454 5.46262" stroke="white" stroke-opacity="0.96" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"/>
+</g>
+</svg>

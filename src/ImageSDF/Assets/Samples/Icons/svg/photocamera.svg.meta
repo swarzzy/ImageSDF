@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c835e881e8b9d4a4c99d307272c39644
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: a9fc2ad79022c714abc53db247e907fd, type: 3}
+  targetResolution: 128
+  spritePixelsToUnits: 1
+  spriteMeshType: 1
+  spriteExtrude: 1
+  spriteAlignment: 0
+  wrapU: 0
+  wrapV: 0
+  wrapW: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  maxDistance: 31
+  rasterizationResolution: 2048
+  customCommandLineArgs: 

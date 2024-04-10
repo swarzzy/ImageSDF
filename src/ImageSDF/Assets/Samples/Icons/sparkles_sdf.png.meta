@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 8e9fa2235f2c67040acee0fc1adbddb4
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b689585d40b895ed47cf100bb645fe58
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b491e566f47656a45a22650ec7a75457, type: 3}
+  targetResolution: 128
+  spritePixelsToUnits: 1
+  spriteMeshType: 1
+  spriteExtrude: 1
+  spriteAlignment: 0
+  wrapU: 0
+  wrapV: 0
+  wrapW: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  maxDistance: 30

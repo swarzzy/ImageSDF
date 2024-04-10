@@ -1,0 +1,22 @@
+# ===================================================================================== #
+# UserWorkspace is private folder for user. Its containment is ignored by project repo.
+# It is useful to store tools and editor extension which is convenient 
+# for you but could be inconvenient or not required for other contributors.
+# ===================================================================================== #
+!src/*/Assets/UserWorkspace
+src/*/Assets/UserWorkspace/*
+!src/*/Assets/UserWorkspace/.gitkeep
+
+# ================= #
+# Exlude docs build #
+# ================= #
+/docs/build
+
+# ================= #
+# Exlude builds     #
+# ================= #
+/src/*/Build
+
+.vs/
+*.user
+.vscode/
