@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEditor.UI;
 using UnityEngine;
 
-namespace Saritasa.SDF
+namespace ImgSDF.Editor
 {
     [CustomEditor(typeof(ImageSDF), true)]
     [CanEditMultipleObjects]

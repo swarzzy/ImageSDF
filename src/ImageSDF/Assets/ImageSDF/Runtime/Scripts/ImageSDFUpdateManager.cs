@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Saritasa.SDF
+namespace ImgSDF
 {
     public static class ImageSdfUpdateManager
     {
