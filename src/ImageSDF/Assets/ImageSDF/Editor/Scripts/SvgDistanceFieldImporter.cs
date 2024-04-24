@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Globalization;
 using System.IO;
 using Unity.Collections;
 using UnityEditor;
@@ -20,11 +21,7 @@ namespace ImgSDF.Editor
         internal readonly static int[] MaxDistances = new[] { 127, 127, 127, 63, 31 };
         internal readonly static int[] RasterResolutions = new[] { 256, 512, 1024, 2048, 4096 };
 
-#if UNITY_EDITOR_WIN
-        private const string ResvgAssetLabel = "l:ImageSDF.Windows.Resvg";
-#elif UNITY_EDITOR_OSX
-    private const string ResvgAssetLabel = "l:ImageSDF.Macos.Resvg";
-
+#if UNITY_EDITOR_OSX
     private void MacExecuteCommand(AssetImportContext ctx, string command)
     {
         Process proc = new System.Diagnostics.Process();
@@ -50,7 +47,7 @@ namespace ImgSDF.Editor
 
         private byte[] RenderSvg(AssetImportContext ctx, string assetPath, int resolution)
         {
-            var exeAsset = AssetDatabase.FindAssets(ResvgAssetLabel);
+            var exeAsset = AssetDatabase.FindAssets(GetResvgAssetLabel());
             var exePath = AssetDatabase.GUIDToAssetPath(exeAsset[0]);
 
 #if UNITY_EDITOR_OSX
@@ -150,6 +147,26 @@ namespace ImgSDF.Editor
             {
                 DestroyImmediate(srcTexture);
             }
+        }
+
+        private string GetResvgAssetLabel()
+        {
+            string resvgAssetLabel = string.Empty;
+
+#if UNITY_EDITOR_WIN
+            resvgAssetLabel = "l:ImageSDF.Windows.Resvg";
+#elif UNITY_EDITOR_OSX
+
+            if (CultureInfo.InvariantCulture.CompareInfo.IndexOf(SystemInfo.processorType, "M2", CompareOptions.IgnoreCase) >= 0)
+            {
+                resvgAssetLabel = "l:ImageSDF.MacosARM.Resvg";
+            }
+            else
+            {
+                resvgAssetLabel = "l:ImageSDF.Macos86_64.Resvg";
+            }
+#endif
+            return resvgAssetLabel;
         }
     }
 }
