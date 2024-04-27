@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 60df58e9020831448b0466528399efaa
+guid: 8d3aa64cdb6c8e348aa7c238da10bbe4
 labels:
-- ImageSDF.Macos86_64.Resvg
+- ImageSDF.MacosARM.Resvg
 DefaultImporter:
   externalObjects: {}
   userData: 
